@@ -1,0 +1,146 @@
+body{
+  padding: 0;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
+.container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+
+header{
+  background-color: #323C73;
+  color: white;
+  padding-top: 15px;
+  min-height: 60px;
+  border-bottom: #31E0C1 3px solid;
+}
+
+header a{
+  color: white;
+  text-decoration: none;
+}
+
+header li{
+  display: inline;
+  padding: 0 20px;
+  float: left;
+}
+
+header #branding{
+  float: left;
+}
+
+header #branding h1{
+ margin: 0;
+}
+
+header nav{
+float: right;
+margin-bottom: 10px;
+}
+
+header .current a{
+  color:#FF88A7
+}
+
+header a:hover{
+  color:#31E0C1
+}
+
+/* board */
+#board{
+  min-height: 650px;
+  background: url('../img/sunflower.jpg') no-repeat;
+  border-bottom: #31E0C1 3px solid;
+  text-align: center;
+  margin-top: 55px;
+  margin-bottom: 0px;
+  border-top: #31E0C1 3px solid;
+  background-position: 50% 10%;
+}
+
+#board h1{
+  margin-top: 240px;
+  font-size: 60px;
+  margin-bottom: 10px;
+  float: right;
+  color: 	#3C3C8C;
+  margin-right: 12px;
+}
+
+#profile{
+  margin-top: 100px;
+}
+
+#profile h2{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 14px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.page-title{
+  font-size: 18pt;
+  margin-top: 30px;
+}
+
+#project h3{
+  margin-top: 50px;
+  font-size: 16pt;
+}
+
+
+.flex-container { 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.flex-container > div {
+  background-color:		#FFE4E1;
+  margin: 60px;
+  padding: 80px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.flex-container p{
+  text-align: center;
+  font-size: 18px;
+  flex-wrap: wrap;
+}
+
+
+/* footer */
+footer{
+  padding: 20px;
+  margin-top: 50px;
+  bottom: 0;
+  color: black;
+  text-align: center;
+  
+}
+
+
+
+header{
+  font-family: 'Sunflower', sans-serif;
+  /* font-family: 'Poor Story', cursive; */
+}
+
+body{
+  font-family: 'Poor Story', cursive;
+}
